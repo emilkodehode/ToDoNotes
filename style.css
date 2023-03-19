@@ -1,0 +1,37 @@
+/* -    -   -   -   -
+colors woop woop
+-   -   -   -   - */
+body{
+    background-color: #867070;
+    background-size: 10%;
+    background-repeat: repeat;
+    background-position-x: center;
+    margin: 0;
+    text-shadow: 0 0 10px #F5EBEB;
+    text-align: center;
+}
+main{
+    margin: auto;
+    width: fit-content;
+    padding: 25px;
+    background-color: #D5B4B4;
+}
+#notes-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+textarea{
+    resize: none;
+    padding: 5px;
+}
+.note{
+    border: groove 5px #E4D0D0;
+    max-width: 250px;
+    height: fit-content;
+    word-wrap: break-word;
+    text-align: left;
+    margin: 15px;
+}
+.note button{
+    align-self: baseline;
+}

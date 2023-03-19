@@ -1,0 +1,1 @@
+make some note hit submit. note get "stored" for later. practice on localestorage and json parsing.
